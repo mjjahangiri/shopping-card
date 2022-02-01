@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+body,
+html {
+  direction: rtl;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +39,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#shoppingCardDelete {
+  cursor: pointer;
+  color: crimson;
+}
+#shoppingCardDelete:hover {
+  cursor: pointer;
+  background-color: crimson;
+  border-radius: 4px;
+  color: #f1f1f1;
+  /* padding: 4px; */
+}
+
+#shoppingCardIncrease {
+  color: black;
+  cursor: pointer;
+}
+#shoppingCardIncrease:hover {
+  color: #f1f1f1;
+  background-color: royalblue;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#shoppingCardDecrease {
+  color: black;
+  cursor: pointer;
+}
+#shoppingCardDecrease:hover {
+  color: #f1f1f1;
+  background-color: crimson;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#shoppingCardQuantity {
+  border-radius: 4px;
 }
