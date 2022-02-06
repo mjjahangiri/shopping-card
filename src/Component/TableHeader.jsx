@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
 export default function TableHeader({ col0, col1, col2, col3, col4 }) {
   return (
-    <thead>
+    <thead className="table-dark">
       <tr>
-        <th className="col-1">{col0}</th>
+        <th className="d-none d-md-flex">{col0}</th>
         <th>{col1}</th>
-        <th className="col-2">{col2}</th>
-        <th className="col-2">{col3}</th>
-        <th className="col-1">{col4}</th>
+        <th>{col2}</th>
+        <th>{col3}</th>
+        <th>{col4}</th>
       </tr>
     </thead>
   );

@@ -56,6 +56,7 @@ html {
 #shoppingCardIncrease {
   color: black;
   cursor: pointer;
+  border-radius: 4px;
 }
 #shoppingCardIncrease:hover {
   color: #f1f1f1;
@@ -67,6 +68,7 @@ html {
 #shoppingCardDecrease {
   color: black;
   cursor: pointer;
+  border-radius: 4px;
 }
 #shoppingCardDecrease:hover {
   color: #f1f1f1;

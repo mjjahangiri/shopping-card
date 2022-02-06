@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import TableHeader from "./TableHeader";
-import TableBody from "./TableBody";
-import { getShopCard } from "../fakeShoppingCardServices";
+import React, { Component } from 'react';
+import TableHeader from './TableHeader';
+import TableBody from './TableBody';
+import { getShopCard } from '../fakeShoppingCardServices';
 
 export default class Table extends Component {
   state = {
@@ -39,7 +39,7 @@ export default class Table extends Component {
   render() {
     const { products } = this.state;
     return (
-      <table className="w-100 text-center table table-striped">
+      <table className="w-100 text-center align-middle table table-striped">
         <TableHeader
           col0="ردیف"
           col1="توضیحات"
